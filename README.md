@@ -38,7 +38,7 @@ export class AppModule {}
 
 pdfSrc = 'https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf';
 
-###⚠️ Atualização necessária para pdfjs-dist
+### ⚠️ Atualização necessária para pdfjs-dist
 
 Este projeto usa internamente o PDFPageViewBuffer, que a partir de versões recentes do pdfjs-dist utiliza o tipo SetIterator, que não é aceito como valor em ambientes TypeScript modernos (ex: Angular 16+).
 Para evitar o erro:
